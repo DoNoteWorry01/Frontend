@@ -1,0 +1,247 @@
+.modalBackground {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+}
+
+.modalContainer {
+	width: 25rem;
+	height: auto;
+	border-radius: 12px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+.modal-fullContainer {
+	outline: none;
+	border: none;
+	background-color: white;
+}
+
+.modalContainer .title {
+	display: inline;
+	text-align: center;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+.titleCloseBtn {
+	/* display: flex;
+	justify-content: flex-end; */
+	position: relative;
+}
+
+.titleCloseBtn button {
+	position: absolute;
+	right: 1%;
+	font-weight: bold;
+}
+
+.titleCloseBtn button {
+	background-color: transparent;
+	border: none;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.modalContainer .body {
+	flex: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.9rem;
+	text-align: center;
+	z-index: 2;
+	margin: 0.5rem 0;
+	width: 100%;
+}
+
+.modalContainer .footer {
+	width: 100%;
+	width: 100%;
+	flex: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modalContainer .footer button {
+	width: 100px;
+	height: 25px;
+	margin: 10px;
+	border: none;
+	background-color: blue;
+	color: black;
+	border-radius: 5px;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+.modalBackground {
+	overflow-y: hidden;
+}
+
+/* SignUp From */
+.registration-container {
+	border: 1px solid black;
+	height: auto;
+	width: 100%;
+	display: inline-block;
+	/* position: absolute; */
+	/* top: 50%; */
+	/* left: 50%; */
+	border-radius: 5px;
+	/* padding: 2rem 1rem; */
+	border: none;
+	/* transform: translate(-50%, -50%); */
+}
+
+/* .reg-company-logo img {
+	height: 5rem;
+	width: 22rem;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+} */
+
+.registration-form {
+	height: auto;
+	/* padding: 2rem 1.5rem; */
+	border-radius: 5px;
+	background-color: white;
+	/* box-shadow: 2px 2px 4px silver, -2px -2px 4px silver; */
+}
+
+.registration-form h1 {
+	text-align: center;
+	color: #ff5f00;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.registration-form input {
+	display: block;
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid silver;
+	margin-top: 0.3rem;
+}
+
+.registration-form input:focus {
+	border: 1px solid #0a66c2;
+}
+
+.registration-form label {
+	display: block;
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-left: 0.5rem;
+	margin-top: 0.5rem;
+	text-align: start;
+}
+
+.sign_in-btn {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 1rem;
+	padding: 0.7rem 1rem;
+	font-size: 1rem;
+	font-weight: bold;
+	background: #ff5f00;
+	border: none;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.sign_in-btn:hover {
+	transition: 0.3s all ease;
+	background: #0077ee;
+	color: #f3f3f3;
+}
+
+.login-page-redirect {
+	font-size: 0.9rem;
+	margin-top: 0.5rem;
+}
+
+.login-page-redirect span {
+	font-weight: bold;
+	color: var(--primary-color);
+	cursor: pointer;
+}
+
+.login-page-redirect span:hover {
+	text-decoration: underline;
+	transition: all 0.2s ease;
+}
+
+.openModalBtn-hide {
+	display: none;
+}
+
+/* .modalContainer .body {
+	display: block;
+} */
+
+/* body.active-modal {
+	overflow-y: hidden;
+}
+
+.btn-modal {
+	padding: 10px 20px;
+	display: block;
+	margin: 100px auto 0;
+	font-size: 18px;
+}
+
+.modal,
+.overlay {
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+}
+
+.overlay {
+	background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 1.4;
+	background: #f1f1f1;
+	padding: 14px 28px;
+	border-radius: 3px;
+	max-width: 600px;
+	min-width: 300px;
+}
+
+.close-modal {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 5px 7px;
+} */

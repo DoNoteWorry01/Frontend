@@ -1,0 +1,154 @@
+.login-company-logo img {
+	height: 5rem;
+	width: 22rem;
+	position: relative;
+	transform: translate(-50%);
+	margin-bottom: 0.5rem;
+}
+
+.login-container {
+	border: 1px solid black;
+	height: auto;
+	width: auto;
+	display: inline-block;
+	border-radius: 5px;
+	border: none;
+}
+
+.login-form {
+	/* border: 1px solid black; */
+	height: auto;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 2rem 1rem;
+	background: white;
+	/* box-shadow: 2px 2px 4px silver, -2px -2px 4px silver; */
+}
+
+.login-form h1 {
+	text-align: center;
+	color: #ff5f00;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.login-form label {
+	display: block;
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding-left: 0.5rem;
+	margin-top: 1rem;
+	text-align: left;
+}
+
+.login-form input {
+	display: block;
+	width: 20rem;
+	padding: 0.5rem;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid silver;
+	margin-top: 0.3rem;
+}
+
+input.error {
+	border-color: red;
+}
+
+.input-feedback {
+	font-size: 0.9rem;
+	color: red;
+	font-weight: bold;
+	text-align: left;
+}
+
+.login-btn {
+	margin-top: 1rem;
+	display: block;
+	outline: none;
+	border: none;
+	color: white;
+	font-weight: bolder;
+	background: #ff5f00;
+	width: 20rem;
+	padding: 0.6rem 0;
+	font-size: 1rem;
+	border-radius: 25px;
+}
+
+.login-btn:hover {
+	background-color: #ff5e0098;
+}
+
+.login-form a {
+	text-decoration: none;
+	color: black;
+	font-size: 0.8rem;
+}
+
+.login-form h2 {
+	text-align: center;
+	color: #0a66c2;
+	position: relative;
+	font-size: 1rem;
+}
+
+.forgot {
+	margin: 0.5rem 0 0.2rem 0;
+	display: inline-block;
+}
+
+.forgot span {
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.3rem 0.5rem;
+}
+
+.forgot:hover {
+	text-decoration: underline;
+	transition: all 0.3s ease;
+	border-radius: 5px;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.signin {
+	color: black;
+	padding: 1rem;
+	font-size: 0.9rem;
+}
+
+.signin span {
+	color: var(--primary-color);
+	font-weight: bold;
+}
+
+.signin span:hover {
+	text-decoration: underline;
+}
+
+/* TAB CHANGE */
+
+.company-redirect {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	background-color: #ff5f00;
+}
+
+.company-redirect li {
+	font-size: 0.9rem;
+	padding: 0.3rem 1rem;
+	background-color: #ff5f00;
+	color: white;
+	font-weight: bolder;
+	width: 50%;
+}
+
+.company-redirect span {
+	color: #2867b2;
+	font-weight: bold;
+}
